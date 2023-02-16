@@ -13,3 +13,8 @@ neo4j stop
 
 5)
 neo4j-admin dbms set-initial-password <password>
+
+
+6) изменить название бд в файле `neo4j.conf`
+# The name of the default database
+initial.dbms.default_database=neo4j
